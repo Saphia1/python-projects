@@ -1,0 +1,3 @@
+Scores: 
+Player 1: [4, 0, 18, 0, 2]	Player 1 Total: 24
+Player 2: [16, 4, 6, 18, 4]	Player 2 Total: 48
