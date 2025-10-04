@@ -20,6 +20,7 @@ def is_leap (year):
             leap=True
             return leap
 
-a=(int(input("Enter the year: ")))
+#a=(int(input("Enter the year: ")))
+a=year
 answer=is_leap(a)
 print(answer)

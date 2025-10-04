@@ -42,7 +42,7 @@ name1 = input("What is your name: ", Username_1)
 time.sleep(1)
 
 UserAttempt = input("Please enter the username for PLAYER 2 ")
-while UserAttempt != Username2:
+while UserAttempt != Username_2:
     UserAttempt = input("Wrong ! Try again! ")
     print(" ")
 

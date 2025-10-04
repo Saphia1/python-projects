@@ -18,7 +18,7 @@ def addition (a,b):
 
     
 #operating systems menu
-choice = input("Welcome to the operating system! What would you like to access?")
+choice = input("Welcome to the operating system! What would you like to access? Calculator or Doctor Appointment")
 if choice == "Calculator":
     calculator= input("A. Addition, B. Subtraction, C. Multiplication or D. Division?")
     if calculator == "Addition" or calculator == "A":
@@ -50,12 +50,16 @@ elif choice == "Doctor Appointment":
     print("Taking temp")
     time.sleep(1)
     temp=random.randint(0,78)
+    time.sleep(1)
     if temp >37:
             print("YOUR TEMPERATURE IS ABNORMALY HIGH! ", temp," DEGREES!")
     elif temp <35:
         print("YOUR TEMPERATURE IS ABNORMALY LOW!", temp, " DEGREES!")
     else:
         print("Hmmm your temperature is normal...")
+    time.sleep(1)
+    print("Checking your reflexes..")
+    time.sleep(1)
     reflex = random.randint(0,1)
     if reflex == 0:
         print("Your reflexes dont work! Hmmm one last test to determine!")
@@ -63,7 +67,9 @@ elif choice == "Doctor Appointment":
         print("Hmmm your reflexes seem normal...")
     history=random.randint(0,1)
     history=0
+    time.sleep(1)
     print("Let me scan your legs")
+    time.sleep(1)
     if history == 0:
         print("Your legs are unhealthy")
     else:

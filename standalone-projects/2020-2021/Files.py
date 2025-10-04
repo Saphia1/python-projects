@@ -1,0 +1,10 @@
+newfile = open ("The New File.txt","w")
+newfile.write("Hello!\n")
+newfile.write("This is a file!\n")
+newfile.write("I like cats")
+newfile.close()
+newfile = open ("The New File.txt","r")
+print(newfile.readlines()[1])
+input()
+newfile.read()
+

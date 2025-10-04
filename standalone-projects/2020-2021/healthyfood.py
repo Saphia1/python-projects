@@ -3,10 +3,8 @@ food=[ [ ["fruits","berries"],["apple","pear","banana"],["healthy"] ],
        [ ["sweets","treats"],["cookie","donut","cake"],["unhealthy"] ],
     ]
 #print off all healthy food
-check=True
 for i in range (0, len(food)):
-    for j in range (0, len(food)):
-        print("made it")
-        if check==True:
-            print("hello")
-            print (food[i][j-1])
+            if (food[i][2][0])== "healthy":
+                print (food[i][0])
+                print (food[i][1])
+

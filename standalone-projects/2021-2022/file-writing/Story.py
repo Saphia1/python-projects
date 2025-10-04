@@ -1,0 +1,13 @@
+print("Let's start")
+newfile = open("The New File.txt","w")
+print("Would you like to write a line? ")
+choice=input()
+while choice == 'yes':
+    line = input("Enter the line:")
+    newfile.write(line + "\n")
+    choice= input("Another line?")
+newfile.close()
+print("View your story?")
+newfile=open("The New File.txt","r")
+print("Here you go:")
+print(newfile.read())
